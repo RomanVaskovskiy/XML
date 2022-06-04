@@ -1,0 +1,11 @@
+<bug>
+  <developer>Roman Vaskovskiy</developer>
+  <creation time>2022-06-04 18:15</creation time>
+  <product>jdt</produkt>
+  <component>UI</component>
+  <resolution>fixed</resolution>
+  <bug_severity>normal</bug_severity>
+  <summary>[extract method] extracting return value results in compile error</summary>
+  <descriptoin>Build ID: I20080617-2000 use extract method on 'foo' 
+      class bar { 
+        boolean foo;
